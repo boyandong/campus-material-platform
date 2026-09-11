@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env.local
+project_data/*
+!project_data/.gitkeep
+workbench.db
+*.db-shm
+*.db-wal
+models/
+workbench.lock
+.ruff_cache/
+work/
+
+# Local-only source materials, historical archives, and generated artifacts.
+# The workbench can run without these folders in a fresh checkout.
+data/
+project_data/
+archive/
+output/
+outputs/
+tmp/
+marketing/
+
+# Private planning/reference documents. Keep the blank questionnaire template.
+/备忘录.docx
+/暑假验证计划.docx
+/校园资料平台第二轮验证复盘与行动计划.pdf
